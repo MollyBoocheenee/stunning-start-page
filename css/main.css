@@ -31,7 +31,7 @@ main {
 }
 
 main > p {
-  padding: 0 .5rem;
+  padding: 0;
   color: #323232;
   font-size: 1.1258rem;
 }
@@ -45,7 +45,7 @@ h1 {
 h2 {
   font-family: "PT Sans Narrow", sans-serif;
   color: #323232;
-  padding-left: .5rem;
+  padding-left: 0;
   padding-top: 1.5rem;
 }
 
@@ -53,7 +53,7 @@ h3 {
   grid-area: bottom;
   font-family: "PT Sans Narrow", sans-serif;
   font-size: 1.125rem;
-  background-color: #bebebe;
+  background-color: rgba(150, 150, 150, .5);
   padding: 1.125rem;
   order: 1;
 }
@@ -70,6 +70,7 @@ li a {
   background-color: #bd027d;
   padding: .5rem;
   margin: .5rem;
+  margin-left: 0;
   color: #fff;
   border: 2px solid #960062;
   border-radius: 6px;
@@ -106,16 +107,18 @@ div {
   grid-area: top;
   justify-content: flex-end;
   display: flex;
-  padding: .5rem;
-  margin-left: 0;
   margin-top: .5em;
   margin-bottom: .5em;
   border-radius: 1em 0 0 1em;
+  padding-right: 1rem;
+  background-color: #bebebe;
+  margin-left: 0;
 }
 
 div img {
   width: 1.5rem;
   margin-right: .5em;
+  height: 1.5rem;
 }
 
 footer {
@@ -148,7 +151,7 @@ section li > img {
 
 section li {
   background-color: #ccc;
-  margin: .5rem;
+  margin-left: 0;
   border: 2px solid #afafaf;
   border-radius: 6px;
   display: grid;
